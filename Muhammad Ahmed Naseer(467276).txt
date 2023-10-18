@@ -1,0 +1,75 @@
+Name:Muhammad Ahmed Naseer
+sec: A
+id: 467276
+
+labtask#1 
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a=0, b=0;
+    for(int c=1; c<=10; c++){
+        cout<<"enter a natural number:";
+    cin>>b;
+        a=a+c;
+    }
+
+cout<<"sum of numbers is: "<<a<<endl;
+return 0;
+}
+
+labtask#2
+
+#include<iostream>
+using namespace std;
+int main(){
+    int a;
+   cout<< "enter a number: ";
+    cin>>a;
+    for(int b=0; b<=10; b++){
+        cout<<a<<"x"<<b<<"="<<a*b<<endl;
+    }
+    return 0;
+}
+
+labtask#3
+
+#include <iostream>
+using namespace std;
+int main(){
+    int x;
+    int y=1;
+    cout<<"Enter a number:";
+    cin>>x;
+    if (x>0){
+    for (int c=0; c<x; c++){
+        y=y*(x-c);
+    }
+    cout<<y;
+    }
+    else{
+        cout<<"invalid input";
+    }
+    return 0;
+}
+
+labtask#4
+
+#include<iostream>
+using namespace std;
+int main(){
+		int a, b, c, d;
+	cout<<"Enter Number 1: ";
+	cin>>a;
+	cout<<"Enter Number 2: ";
+	cin>>b;
+	cout<<a<<", "<<b<<", ";
+	for(d=0; d<6; d++){
+	c=a+b;
+	a=b;
+	b=c;
+	cout<<c<<", ";
+	}
+}
